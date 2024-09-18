@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-        <title>GLightbox | A touchable pure Javascript lightbox</title>
+        <title>Mameaw & Bank</title>
     </head>
 
     <body>
@@ -26,11 +26,17 @@
                         <img src="img/cover-1024.jpg" class="img-fluid rounded-3 img-cover">
                     </div>
                     <div class="col-md-6">
-                        <h1 class="slide-up-text">MameawBank</h1>
-                        <p class="tagline slide-up-text header-1">New chapter begins</p>
-                        <p class="tagline slide-up-text header-2">Save The Date</p>
-                        <p class="tagline slide-up-text header-3">NOVEMBER 9, 2024</p>
-                        <p class="tagline slide-up-text header-4">You are invited to our wedding ceremony and to the celebration of our marriage. Don&#8217;t miss to meet us and we hope to see you on our special day.</p>
+                        <div class="slide-up-text">
+                            <h1>MameawBank</h1>
+                        </div>
+                            <p class="tagline header-1">New chapter begins</p>
+                        <div class="line_date">
+                            <h3><span>Save The Date</span></h3>
+                        </div>
+                        <div class="slide-up-text">
+                            <h2 class="save_date">NOVEMBER 9, 2024</h2>
+                        </div>
+                            <p class="tagline header-4">You are invited to our wedding ceremony and to the celebration of our marriage. Don&#8217;t miss to meet us and we hope to see you on our special day.</p>
                         <div class="mouse_wave">
                             <span class="scroll_arrows one"></span>
                             <span class="scroll_arrows two"></span>
@@ -74,8 +80,26 @@
                 </div>
             </div>
         </section>
+
+        <!-- RSVP -->
+        <section class="rsvp">
+            <div class="container text-center">
+                <div class="row">
+                    <h1>R . S . V . P</h1>
+                    <h2>เพื่อให้เราได้จัดเตรียมการล่วงหน้าได้อย่างเหมาะสม<br/>
+                        ขอรบกวนทุกท่านทำแบบตอบรับเข้าร่วมงานให้เราด้วยนะครับ</h2>
+                    <div class="button-container">
+                        <a class="btn button -register" href="https://forms.gle/uV9sfNpmEV5R1AY79" role="button">แบบตอบรับการเข้าร่วมงาน</a>
+                    </div>
+                    <h2>ขอขอบคุณทุกท่านมา ณ โอกาสนี้<br/>
+                        แล้วมาพบกันในวันสำคัญของเราทั้งสองคนนะคะ</h2>
+                </div>
+            </div>
+        </section>
+        
         <!-- BEST MOMENT -->
-        <section class="bestmoment">
+        
+        <!--<section class="bestmoment">
             <div class="container text-center">
                 <div class="row">
                     <h1>BEST MOMENT</h1>
@@ -92,7 +116,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- ON BEHALF OF -->
         <section class="onbehalfof">
@@ -134,29 +158,24 @@
         <section class="wedding-schedule">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h1>WEDDING SCHEDULE</h1>
-                        <ul class="box-container three-cols">
-                            <li class="box">
-                                <div class="inner">
-                                    <p>Photo Session</p>
-                                    <p>18 : 30</p>
-                                </div>
-                            </li>
-                            <li class="box">
-                                <div class="inner">
-                                    <p>Wedding Celebration</p>
-                                    <p>19 : 00</p>
-                                </div>
-                            </li>
-                            <li class="box">
-                                <div class="inner">
-                                    <p>After Party</p>
-                                    <p>21 : 00</p>
-                                </div>
-                            </li>
-                        </ul>
+                    <h1>WEDDING SCHEDULE</h1>
+                    <div class="col-md-4">
+                        <img loading="lazy" decoding="async" width="85" height="85" src="img/icons/camera-logo.png" alt="" />													
+                        <p>Photo Session</p>
+                        <p>18 : 30</p>
                     </div>
+                    <div class="col-md-4">
+                        <img loading="lazy" decoding="async" width="85" height="85" src="img/icons/wedding-logo.png" alt="" />	
+                        <p>Wedding Celebration</p>
+                        <p>19 : 00</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img loading="lazy" decoding="async" width="85" height="85" src="img/icons/party-logo.png" alt="" />	
+                        <p>After Party</p>
+                        <p>21 : 00</p>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-md-12">
                         <h3>THEME COLOR</h3>
                         <h4>Theme : Whatever you think is best</h4>
@@ -172,11 +191,9 @@
                     <h1>GRAND BALLROOM 2TH FLOOR</h1>
                     <h1>GRAPH HOTEL BANGKOK</h1>
                     <h1>Ratchadaphisek, HuayKwang, Bangkok 10600</h1>
-                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://maps.app.goo.gl/VQfN91sTgwuZXmFZ7" target="_blank">
-                        <span class="elementor-button-content-wrapper">
-                            <span class="elementor-button-text">CLICK TO MAP</span>
-                        </span>
-                    </a>
+                </div>
+                <div class="button-container">
+                    <a class="btn button -map" href="https://maps.app.goo.gl/VQfN91sTgwuZXmFZ7" target="_blank">CLICK TO MAP</a>
                 </div>
             </div>
         </section>
@@ -191,20 +208,6 @@
                     <h1>We hope to see you on our special day</h1>
                     <h2>#MMfoundherBank</h2>
                     <h3>SINCEREST APOLOGIES IF THE INVITATION WAS NOT PERSONALLY DELIVERED</h3>
-                </div>
-            </div>
-        </section>
-
-        <!-- RSVP -->
-        <section class="rsvp">
-            <div class="container text-center">
-                <div class="row">
-                    <h1>R . S . V . P</h1>
-                    <h2>เพื่อให้เราได้จัดเตรียมการล่วงหน้าได้อย่างเหมาะสม<br/>
-                        ขอรบกวนทุกท่านทำแบบตอบรับเข้าร่วมงานให้เราด้วยนะครับ</h2>
-                    <a class="btn" href="https://forms.gle/hXL7JezVBNzWLmhd6" role="button">แบบตอบรับการเข้าร่วมงาน</a>
-                    <h2>ขอขอบคุณทุกท่านมา ณ โอกาสนี้<br/>
-                        แล้วมาพบกันในวันสำคัญของเราทั้งสองคนนะคะ</h2>
                 </div>
             </div>
         </section>
