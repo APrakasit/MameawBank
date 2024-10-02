@@ -859,7 +859,7 @@ strong {
     min-height: 500px;
     width: 100%;
     position: relative;
-    background: url("../img/cover-1024.jpg");
+    background: url("../img/img-cover.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
